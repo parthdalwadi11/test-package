@@ -9,11 +9,12 @@
             "email": "your.email@example.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/laravel": "^10.0"
+        "laravel/laravel": "^10.0",
+        "pmd/laravel-installer-package": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
