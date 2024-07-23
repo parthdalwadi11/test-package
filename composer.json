@@ -11,9 +11,16 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yourusername/laravel-installer-package"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/laravel": "^10.0"
+        "laravel/laravel": "^10.0",
+        "pmd/laravel-installer-package": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
