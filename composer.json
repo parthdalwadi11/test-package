@@ -1,5 +1,5 @@
 {
-    "name": "PMD/laravel-installer-package",
+    "name": "pmd/laravel-installer-package",
     "description": "A package to install Laravel",
     "type": "project",
     "license": "MIT",
