@@ -19,8 +19,7 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/laravel": "^10.0",
-        "pmd/laravel-installer-package": "dev-master"
+        "laravel/laravel": "^10.0"
     },
     "scripts": {
         "post-root-package-install": [
